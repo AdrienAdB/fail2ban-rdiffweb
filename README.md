@@ -5,6 +5,7 @@ Fail2Ban filter for rdiffweb
 
 2) Add below lines to /etc/fail2ban/jail.local
 
+```
 [rdiffweb]
 enabled  = true
 filter   = rdiffweb
@@ -12,3 +13,4 @@ logpath  = /var/log/rdiffweb.log
 bantime = 600
 findtime = 600
 maxretry = 5
+```
